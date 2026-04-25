@@ -1,0 +1,27 @@
+{
+  "@@locale": "ar",
+  "appTitle": "تطبيق الأخبار",
+  "home": "الرئيسية",
+  "goodMorning": "صباح الخير",
+  "hereIsSomeNews": "إليك بعض الأخبار لك",
+  "viewAll": "عرض الكل",
+
+  "categoryGeneral": "عام",
+  "categoryBusiness": "أعمال",
+  "categorySports": "رياضة",
+  "categoryTechnology": "تكنولوجيا",
+  "categoryEntertainment": "ترفيه",
+  "categoryHealth": "صحة",
+  "categoryScience": "علوم",
+
+  "drawerGoToHome": "الذهاب للرئيسية",
+  "drawerTheme": "المظهر",
+  "drawerLanguage": "اللغة",
+  "themeDark": "داكن",
+  "themeLight": "فاتح",
+  "languageEnglish": "الإنجليزية",
+  "languageArabic": "العربية",
+
+  "searchHint": "بحث",
+  "viewFullArticle": "عرض المقال كاملاً"
+}

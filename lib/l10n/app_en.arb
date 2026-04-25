@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "appTitle": "News App",
+  "home": "Home",
+  "goodMorning": "Good Morning",
+  "hereIsSomeNews": "Here is Some News For You",
+  "viewAll": "View All",
+
+  "categoryGeneral": "General",
+  "categoryBusiness": "Business",
+  "categorySports": "Sports",
+  "categoryTechnology": "Technology",
+  "categoryEntertainment": "Entertainment",
+  "categoryHealth": "Health",
+  "categoryScience": "Science",
+
+  "drawerGoToHome": "Go To Home",
+  "drawerTheme": "Theme",
+  "drawerLanguage": "Language",
+  "themeDark": "Dark",
+  "themeLight": "Light",
+  "languageEnglish": "English",
+  "languageArabic": "Arabic",
+
+  "searchHint": "Search",
+  "viewFullArticle": "View Full Article"
+}
