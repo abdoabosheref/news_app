@@ -5,6 +5,7 @@ abstract class AppIcon {
     'assets/icons/close_b.svg',
     width: 24,
     height: 24,
+
   );
   static var closeWIcon = SvgPicture.asset(
     'assets/icons/close_w.svg',
