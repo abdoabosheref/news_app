@@ -4,6 +4,7 @@ import 'package:news_app/core/providers/theme_pro.dart';
 import 'package:news_app/core/utils/app_routes.dart';
 import 'package:news_app/core/utils/app_theme.dart';
 import 'package:news_app/ui/home_screen/home_screen.dart';
+import 'package:news_app/ui/news_list/news_list.dart';
 import 'package:provider/provider.dart';
 import 'core/providers/lang_pro.dart';
 import 'l10n/app_localizations.dart';
@@ -46,6 +47,7 @@ class MyApp extends StatelessWidget {
        initialRoute: AppRoutes.homeScreen,
       routes: {
         AppRoutes.homeScreen : (context) => HomeScreen(),
+        AppRoutes.newsList : (context) => NewsList(),
       },
 
 

@@ -20,7 +20,8 @@ abstract class AppTheme {
         borderRadius: BorderRadiusGeometry.circular(16),
       ),
     ),
-    dividerTheme: DividerThemeData(color: AppColor.black),
+    dividerTheme: DividerThemeData(color: AppColor.white,
+     thickness: 2),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         textStyle: AppStyle.bold16Black,
@@ -39,6 +40,10 @@ abstract class AppTheme {
         borderRadius: BorderRadiusGeometry.circular(0),
       ),
     ),
+    listTileTheme: ListTileThemeData(
+      minVerticalPadding:0 ,
+      contentPadding: EdgeInsets.zero,
+    )
   );
 
 
@@ -60,7 +65,8 @@ abstract class AppTheme {
         borderRadius: BorderRadiusGeometry.circular(16),
       ),
     ),
-    dividerTheme: DividerThemeData(color: AppColor.white),
+    dividerTheme: DividerThemeData(color: AppColor.white,
+        thickness: 2),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         textStyle: AppStyle.bold16White,
@@ -79,5 +85,10 @@ abstract class AppTheme {
         borderRadius: BorderRadiusGeometry.circular(0),
       ),
     ),
+      listTileTheme: ListTileThemeData(
+        minVerticalPadding:0 ,
+        contentPadding: EdgeInsets.zero,
+      )
+
   );
 }
