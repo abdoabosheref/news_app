@@ -21,16 +21,15 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     var langPro = Provider.of<LangPro>(context);
     var themePro = Provider.of<ThemePro>(context);
     return MaterialApp(
+
       theme: AppTheme.lightTheme,
       darkTheme:AppTheme.darkTheme ,
       themeMode:themePro.appTheme,
-
 
       locale:Locale(langPro.lang) ,
       localizationsDelegates: [
@@ -44,7 +43,8 @@ class MyApp extends StatelessWidget {
         Locale('ar'), // Arabic
       ],
       debugShowCheckedModeBanner: false,
-       initialRoute: AppRoutes.homeScreen,
+
+       initialRoute: AppRoutes.newsList,
       routes: {
         AppRoutes.homeScreen : (context) => HomeScreen(),
         AppRoutes.newsList : (context) => NewsList(),
